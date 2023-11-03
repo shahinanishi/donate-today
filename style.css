@@ -1,0 +1,272 @@
+* {
+    margin: 0% ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button style */
+.btn-primary{
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    background: orangered;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+    padding: 10px 30px;
+    
+}
+
+/* Banner style */
+.header-banner{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    text-align: center;
+
+    /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color] [inset]*/
+    box-shadow: 0 20 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.banner-title{
+    font-size: 70px;
+    color:white;
+    padding: 150px 300px;
+    padding-bottom: 30px;
+}
+
+.banner-sub-title{
+    color:white;
+    padding: 0px 450px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* Amount Style */
+.donate-today{
+    background-color: white;
+    height: 650px;
+    text-align: center;
+}
+
+.donate-today p{
+    font-size: 20px;
+    padding: 20px 0px 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.donate-today hr{
+    width:775px;                          /*We specify the width to control the length of the horizontal line.*/
+    margin: 0px 350px 40px 392px;        /* Center the line horizontally, values are top,right,bottom,left*/
+    border: none;                         /* Remove the default border */
+    border-top: 2px solid rgba(0, 0, 0, 0.4); /* Add a top border to create the line */
+
+}
+
+.donate-title{
+    font-size: 40px;
+    font-weight: 800px;
+    color:black;
+    padding: 120px 450px;
+    padding-bottom: 30px;
+}
+
+.donate-sub-title{
+    color:rgba(0, 0, 0, 0.6);
+    padding: 0px 450px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+}
+
+.donate-amount{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+
+  /* using the list-style-type property to remove the bullet points. The value none means that no list marker (bullet, number, etc.) will be displayed for the list items.*/
+  /*use justify-content: center to vertically center the list items within the container and align-items: center to horizontally center them.*/
+
+}
+
+.donate-amount li{
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 35px 20px ;                 /* Add padding inside the box */
+    margin: 35px 10px;                /* Add spacing between list items */
+    background-color: rgba(0, 0, 0, 0.1);   /* Set a background color */
+}
+
+.color-donate{
+    color: red;
+    border: 2px solid red;   
+}
+
+/* Plan Style */
+.donate-plan{
+    background-color: white;
+    height: 750px;
+    text-align: center;
+}
+
+.plan-title{
+    font-size: 40px;
+    color:black;
+    padding: 150px 450px;
+    padding-bottom: 30px;
+    font-weight: 800px;
+}
+
+.plan-sub-title{
+    color:rgba(0, 0, 0, 0.6);
+    padding: 0px 450px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+}
+
+.plan-box{
+    display:flex;
+    justify-content: center;
+    padding: 0px 170px;
+}
+
+.plan-name{
+    border-radius: 5px;
+    padding: 60px 30px ;
+    margin: 35px 12px;
+    background-color: #FFFFFF;
+    text-align:left;
+}
+
+.plan-name h2,p{
+    margin: 20px 0px;
+}
+
+.plan-name h2{
+    font-size: 25px;
+}
+
+.plan-name p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 550;
+    line-height: 1.8;
+}
+
+/*Contribution Style*/
+.contribute{
+    background-color:white;
+    height: 1150px;
+    text-align: left;
+}
+
+.contribute h1{
+    font-size: 40px;
+}
+
+.contribute button{
+    width: 230px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.contribution-one{
+    display: flex;
+}
+
+.contribution-one img{
+    width: 430px;
+    height:450px;
+    margin: 60px 250px 50px 50px;
+    border-radius: 5px;
+}
+
+.depend{
+    margin: 150px 180px;
+}
+
+.contribution-two{
+    display: flex;
+}
+
+.contribution-two img{
+    width: 430px;
+    height:450px;
+    margin: 20px 180px;
+    border-radius: 5px;
+
+}
+
+.survive{
+    margin: 80px 180px 100px 100px;
+}
+
+/* Update Style */
+.update{
+    background-color: white;
+    height: 570px;
+    text-align: center;
+}
+
+.update-info h1{
+    font-size: 40px;
+    padding-top:90px;
+
+}
+
+.update-info p{
+    line-height: 1.8;
+    padding: 10px 450px 40px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.mail{
+    background-color: rgb(255, 234, 219);
+    height: 180px;
+    margin: 0px 350px;
+}
+
+input[type="email"] {
+    margin-right: -5px; /* Adjust the gap between the email input field and the submit button */
+    margin: 65px 0px;
+    padding: 15px 110px 15px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: transparent;
+    font-weight: 650;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    background-color: rgb(252, 117, 68);
+    padding: 15px 40px 15px 40px;
+    margin-left: -5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: transparent;
+    font-weight: 650;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+/* Footer Style */
+.footer{
+    background-color: rgb(12, 11, 12);
+    color:#FFFFFF;
+    height: 190px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer h2{
+    font-size: 32px;
+    color:rgb(203, 83, 74);
+    padding: 50px 0px 18px;
+}
